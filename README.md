@@ -1,6 +1,6 @@
 # Library of Congress Search
 
-## Your Task:
+## Description:
 A simple application that searches and displays results from the Library of Congress API.
 
 ## Built With:
