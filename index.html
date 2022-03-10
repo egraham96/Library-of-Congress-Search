@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Library of Congress Search</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Library of Congress Search Tool</h1>
+        <br>
+        <img src="assets/Library.jpg">
+    </header><br>
+
+<main>
+    <form>
+        <label for="searchquery">Search for Anything in the Library of Congress:</label><br>
+        <input type="text" id="query"><br>
+        <label for="format">Format:</label><br>
+        <select id="dropdown">
+            <option value="maps">maps</option>
+            <option value="audio">audio</option>
+            <option value="photos">photos</option>
+            <option value="manuscripts">manuscripts</option>
+            <option value="newspapers">newspapers</option>
+            <option value="film">film, videos</option>
+            <option value="music">sheet music</option>
+            <option value="websites">websites</option>
+            <option value=""></option>
+        </select>
+        <br><br><input id="submitbutton" type="submit">
+    </form></main>
+<br><br><br>
+    <div id="results"></div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

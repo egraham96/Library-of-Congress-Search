@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+header h1 {
+    margin: auto;
+    font-family: 'Gugi', sans-serif;
+    font-size: 48px
+}
+
+header img {
+    margin: auto;
+    width: 600px;
+    height: 300px;
+}
+
+.headerbox {
+    border: 3px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+
+nav {
+    width: 30%;
+    height: 100vh;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+
+}
+
+#resultsbox {
+    display: inline;
+    width: 70%
+}
+
+.eachresult{
+    height:auto;
+    width:100%;
+    border: 2px solid black;
+}
+
+.eachtitle{
+    font-family:'Gugi', sans-serif;
+    font-size: 28px;
+}
+
+.eachresultimg{
+    margin: auto;
+    width:200px;
+    height:200px;
+}
+
+.hyperlink{
+    display:block;
+}
