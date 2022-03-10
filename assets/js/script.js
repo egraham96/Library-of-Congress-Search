@@ -1,5 +1,5 @@
-var submit = document.getElementById("submitbutton");
-var results= document.getElementById("results");
+const submit = document.getElementById("submitbutton");
+const results= document.getElementById("results");
 
 submit.addEventListener("click", Search)
 
